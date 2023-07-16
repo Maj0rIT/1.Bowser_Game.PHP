@@ -67,7 +67,7 @@
         
         //reGÓWNO
 
-        $sekert = '6LdV0BonAAAAAINXV5GP4PszfnNOq8nLQWLutRKO';
+        $sekert = 'insert private key';
 
         $sprawdz = file_get_contents('https://google.com/recaptcha/api/siteverify?secret='.$sekert.'&response='.$_POST['g-recaptcha-response']);
 
@@ -251,7 +251,7 @@
             }
         ?>
 
-        <div class="g-recaptcha" data-sitekey="6LdV0BonAAAAACJrBvWtlE-xiJLJmiKAydFYnZyv"></div>
+        <div class="g-recaptcha" data-sitekey="insert public key"></div>
         <?php
             if(isset($_SESSION['e_bot']))
             {
